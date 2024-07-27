@@ -2,7 +2,7 @@ a = int(input('Please enter a catheter a '))
 
 b = int(input('Please enter a catheter b '))
 
-hyp_value = float(((a ** 2) + (b ** 2)) ** (1/2))
+hyp_value = float(((a ** 2) + (b ** 2)) ** (1 / 2))
 
 right_tri_area = float((a * b) / 2)
 
