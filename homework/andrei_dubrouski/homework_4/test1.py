@@ -10,6 +10,8 @@ my_dict['list'].pop(1)
 
 my_dict['dict']['i am a tuple'] = 'new_value'
 
+my_dict['dict'][('i am a tuple',)] = 'new_value'
+
 my_dict['set'].add(45678)
 
 my_dict['set'].remove(9.81)
