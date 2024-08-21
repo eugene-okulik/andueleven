@@ -2,10 +2,10 @@ students = ['Ivanov', 'Petrov', 'Sidorov']
 
 subjects = ['math', 'biology', 'geography']
 
-surname1, surname2, surname3 = students
+sur1, sur2, sur3 = students
 
-subject1, subject2, subject3 = subjects
+subj1, subj2, subj3 = subjects
 
-my_text = f'Students {surname1}, {surname2}, {surname3} study these subjects: {subject1}, {subject2}, {subject3}'
+my_text = f'Students {sur1}, {sur2}, {sur3} study these subjects: {subj1}, {subj2}, {subj3}'
 
 print(my_text)
